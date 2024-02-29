@@ -3,9 +3,9 @@ variable "vpc_cidr" {
 }
 variable "common_tags" {
   default = {
-    Project = "roboshop"
-    Environment = "prod"
-    Terraform = "true"
+    project = "roboshop"
+    environment = "prod"
+    terraform = "true"
   }
 }
 
