@@ -184,7 +184,7 @@ module "records" {
 
   records = [
     {
-      name    = "mongodb-dev"
+      name    = "mongodb-prod"
       type    = "A"
       ttl     = 1
       records = [
@@ -192,7 +192,7 @@ module "records" {
       ]
     },
     {
-      name    = "rabbitmq-dev"
+      name    = "rabbitmq-prod"
       type    = "A"
       ttl     = 1
       records = [
@@ -200,7 +200,7 @@ module "records" {
       ]
     },
     {
-      name    = "redis-dev"
+      name    = "redis-prod"
       type    = "A"
       ttl     = 1
       records = [
@@ -208,7 +208,7 @@ module "records" {
       ]
     },
     {
-      name    = "mysql-dev"
+      name    = "mysql-prod"
       type    = "A"
       ttl     = 1
       records = [
